@@ -1,0 +1,32 @@
+DAY 5 — ERROR ANALYSIS
+Best model: LogReg Balanced
+Test samples: 968
+Correct predictions: 742
+Incorrect predictions: 226
+Accuracy: 0.7665
+Macro F1: 0.7242
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+    negative       0.62      0.70      0.66       121
+     neutral       0.84      0.82      0.83       575
+    positive       0.69      0.67      0.68       272
+
+    accuracy                           0.77       968
+   macro avg       0.72      0.73      0.72       968
+weighted avg       0.77      0.77      0.77       968
+
+
+MOST COMMON ERROR TYPES
+neutral -> positive: 71 errors (31.42%)
+positive -> neutral: 68 errors (30.09%)
+neutral -> negative: 30 errors (13.27%)
+negative -> neutral: 24 errors (10.62%)
+positive -> negative: 21 errors (9.29%)
+negative -> positive: 12 errors (5.31%)
+
+MAIN OBSERVATION
+Most frequent error:
+neutral -> positive
+Count: 71

@@ -1,0 +1,7 @@
+﻿true_class,predicted_class,error_count,error_share_pct
+neutral,positive,71,31.42
+positive,neutral,68,30.09
+neutral,negative,30,13.27
+negative,neutral,24,10.62
+positive,negative,21,9.29
+negative,positive,12,5.31

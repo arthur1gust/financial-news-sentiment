@@ -1,0 +1,6 @@
+﻿text,prediction,confidence
+The company reported record revenue and strong profit growth.,positive,0.7697
+The company announced massive layoffs after heavy losses.,negative,0.4607
+The board of directors will meet next Thursday.,neutral,0.8251
+Quarterly earnings exceeded analyst expectations by 15%.,positive,0.4415
+Sales declined sharply and the company lowered its forecast.,negative,0.4344
